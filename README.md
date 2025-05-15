@@ -1,16 +1,18 @@
 # Vendetta Toolhead Assembly Guide
 
-Welcome to the official assembly guide for the **Vendetta Toolhead**—designed to deliver precision, durability, and undeniable style to your 3D printer setup.
+Welcome to the official assembly guide for the **Vendetta Toolhead**—designed to deliver fully functional ability to use your V400 with Box Turtle!
+Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPAP or stock cooling.
 
 ---
 
 ## 🔧 Tools & Materials Required
 
+* Original V400 effector for base parts
 * Allen wrenches (1.5mm to 4mm)
 * M3 screws (various lengths)
 * Heat inserts
 * Soldering iron (for inserts)
-* Threadlocker (blue)
+* BOM Hardware
 * Your full set of Vendetta STLs
 
 ---
@@ -18,6 +20,7 @@ Welcome to the official assembly guide for the **Vendetta Toolhead**—designed 
 ## 📦 Bill of Materials (STLs)
 
 *All STL files are organized in subfolders within `/models/STLs/`*
+*Hardware BOM coming soon!*
 
 ### Main Body
 
@@ -56,7 +59,7 @@ Welcome to the official assembly guide for the **Vendetta Toolhead**—designed 
 
 ## 🧠 Assembly Overview
 
-The Vendetta Toolhead is a modular, high-performance design tailored for reliability and thermal efficiency.
+The Vendetta Toolhead is a modular, high-performance design tailored for Box Turtle Automated Filament Changer.
 
 ![Overview Front](assembly/images/overview/overview_front.png)
 ![Overview Back](assembly/images/overview/overview_back.png)
@@ -66,32 +69,31 @@ The Vendetta Toolhead is a modular, high-performance design tailored for reliabi
 
 ## 🧱 Main Body (Front)
 
-This is the anchor point for many of the subcomponents. Mount it first to establish orientation.
+Secures to the effector via the heatsink. Houses cutting blade, filament sensor, and EBB42.
 
-![Main Body Front](assembly/images/main_body_front/main_body_front_front.png)
+![Main Body Front](assembly/images/main_body_front/main_body_front_perspective.png)
 
 ---
 
 ## 🧱 Main Body (Rear)
 
-Secures to the front shell, and interfaces with the carriage or gantry mount.
+Secures to the main body front. Mounts the stock stepper for the extruder.
 
-![Main Body Rear](assembly/images/main_body_rear/main_body_rear_back.png)
+![Main Body Rear](assembly/images/main_body_rear/main_body_rear_perspective.png)
 
 ---
 
 ## ⚙️ Cutter Arm
 
-Used for fine filament cutting or tool interaction. Ensure precision alignment.
+Used for filament cutting. Options for cutting your own chisel blades or purchasing bambu cutter blades.
 
-![Cutter Arm Right](assembly/images/cutter_arm/cutter_arm_right.png)
-![Cutter Arm Perspective](assembly/images/cutter_arm/cutter_arm_button_v2_perspective1.png)
+![Cutter Arm Perspective](assembly/images/cutter_arm/cutter_arm_perspective1.png)
 
 ---
 
 ## 🌬️ Shroud
 
-Directs airflow and cooling—install with CPAP adapter if using external air assist.
+Ability to integrate Knomiv2 or strictly run heatbreak fan with nose cone.
 
 ![Shroud Front](assembly/images/shroud/shroud_front.png)
 ![Shroud Perspective](assembly/images/shroud/shroud_perspective1.png)
@@ -100,18 +102,18 @@ Directs airflow and cooling—install with CPAP adapter if using external air as
 
 ## 🫁 CPAP Adapter
 
-Optional component for integrating an external CPAP or high-flow fan.
+Optional component for integrating an external CPAP high-flow fan.
 
 ![CPAP Front](assembly/images/CPAP/CPAP_front.png)
-![CPAP Perspective](assembly/images/CPAP/CPAP_front_perspective1.png)
+![CPAP Perspective](assembly/images/CPAP/CPAP_front_perspective.png)
 
 ---
 
 ## 🛞 Idler
 
-Tension system for belt or drive alignment.
+Extruder tension arm for filament path.
 
-![Idler Front](assembly/images/idler/idler_front.png)
+![Idler Front](assembly/images/idler/idler_perspective.png)
 
 ---
 
