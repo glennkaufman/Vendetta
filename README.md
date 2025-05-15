@@ -71,7 +71,7 @@ The Vendetta Toolhead is a modular, high-performance design tailored for Box Tur
 
 Secures to the effector via the heatsink. Houses cutting blade, filament sensor, and EBB42.
 
-![Main Body Front](assembly/images/main_body_front/main_body_front_perspective.png)
+![Main Body Perspective](assembly/images/main_body_front/main_body_front_perspective.png)
 
 ---
 
@@ -79,7 +79,7 @@ Secures to the effector via the heatsink. Houses cutting blade, filament sensor,
 
 Secures to the main body front. Mounts the stock stepper for the extruder.
 
-![Main Body Rear](assembly/images/main_body_rear/main_body_rear_perspective.png)
+![Main Body Perspective](assembly/images/main_body_rear/main_body_rear_perspective.png)
 
 ---
 
@@ -87,7 +87,7 @@ Secures to the main body front. Mounts the stock stepper for the extruder.
 
 Used for filament cutting. Options for cutting your own chisel blades or purchasing bambu cutter blades.
 
-![Cutter Arm Perspective](assembly/images/cutter_arm/cutter_arm_perspective1.png)
+![Cutter Arm Perspective](assembly/images/cutter_arm/cutter_arm_perspective.png)
 
 ---
 
@@ -95,8 +95,8 @@ Used for filament cutting. Options for cutting your own chisel blades or purchas
 
 Ability to integrate Knomiv2 or strictly run heatbreak fan with nose cone.
 
-![Shroud Front](assembly/images/shroud/shroud_front.png)
-![Shroud Perspective](assembly/images/shroud/shroud_perspective1.png)
+![Shroud Perspective1](assembly/images/shroud/shroud_perspective1.png)
+![Shroud Perspective2](assembly/images/shroud/shroud_perspective2.png)
 
 ---
 
@@ -105,7 +105,7 @@ Ability to integrate Knomiv2 or strictly run heatbreak fan with nose cone.
 Optional component for integrating an external CPAP high-flow fan.
 
 ![CPAP Front](assembly/images/CPAP/CPAP_front.png)
-![CPAP Perspective](assembly/images/CPAP/CPAP_front_perspective.png)
+![CPAP Perspective](assembly/images/CPAP/CPAP_perspective.png)
 
 ---
 
@@ -113,7 +113,7 @@ Optional component for integrating an external CPAP high-flow fan.
 
 Extruder tension arm for filament path.
 
-![Idler Front](assembly/images/idler/idler_perspective.png)
+![Idler Perspective](assembly/images/idler/idler_perspective_with_supports.png)
 
 ---
 
