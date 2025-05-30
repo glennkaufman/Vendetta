@@ -127,6 +127,21 @@ Extruder tension arm for filament path.
 
 ---
 
+## Firmware Configuration
+
+All firmware configuration files are organized under the `firmware/config files/` directory, sorted by hardware and use case. These settings are tailored specifically for the Vendetta tool head and its supporting components.
+
+- **Box Turtle Settings**  
+  Configuration optimized for the Box Turtle mod—ensuring smooth integration and reliable performance on supported machines.
+
+- **Octopus Pro**  
+  Dedicated configuration files for the BigTreeTech Octopus Pro board. These files are pre-tuned for compatibility and performance.
+
+- **Vendetta Tool Head**  
+  Custom settings specifically for the Vendetta tool head. Includes pin mappings, thermal tuning, and motion tweaks to get the most out of your hardware.
+
+---
+
 ## 📹 Assembly Video
 
 *Coming soon to YouTube — stay tuned!*
