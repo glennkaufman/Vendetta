@@ -8,19 +8,16 @@ Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPA
 ## 🔧 Tools & Materials Required
 
 * Original V400 effector for base parts
-* Allen wrenches (1.5mm to 4mm)
-* M3 screws (various lengths)
-* Heat inserts
 * Soldering iron (for inserts)
-* BOM Hardware
+* [BOM Hardware](assembly/Vendetta_BOM.pdf)
 * Your full set of Vendetta STLs
 
 ---
 
-## 📦 Bill of Materials (STLs)
+## 📦 Bill of Materials
 
 *All STL files are organized in subfolders within `/models/STLs/`*
-*Hardware BOM coming soon!*
+### [*Hardware BOM*](assembly/Vendetta_BOM.pdf)
 
 ### Main Body
 
