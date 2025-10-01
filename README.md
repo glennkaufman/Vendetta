@@ -139,7 +139,7 @@ All firmware configuration files are organized under the `firmware/config files/
 
 ---
 
-## 📹 Assembly Videos
+## [📹 Assembly Videos](assembly/Videos.md)
 
 *In Production to YouTube — [YouTube](https://www.youtube.com/@gpkaufman)*
 
