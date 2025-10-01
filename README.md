@@ -9,7 +9,7 @@ Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPA
 
 * Original V400 effector for base parts
 * Soldering iron (for inserts)
-* [BOM Hardware](assembly/Vendetta_BOM.pdf)
+* [BOM Hardware](assembly/BOM.md)
 * Your full set of Vendetta STLs
 
 ---
@@ -17,7 +17,7 @@ Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPA
 ## 📦 Bill of Materials
 
 *All STL files are organized in subfolders within `/models/STLs/`*
-### [*Hardware BOM*](assembly/Vendetta_BOM.pdf)
+### [*Hardware BOM*](assembly/BOM.md)
 
 ### Main Body
 
