@@ -9,6 +9,9 @@
 ### [![Vendetta - Heatset Inserts Installation](https://img.youtube.com/vi/ajmu_imUpPU/hqdefault.jpg)](https://www.youtube.com/watch?v=ajmu_imUpPU)  
 *Vendetta - Heatset Inserts Installation* — 9:12
 
+### [![Vendetta - Parts Assembly](https://img.youtube.com/vi/J0I8exbBQgA/hqdefault.jpg)](https://www.youtube.com/watch?v=J0I8exbBQgA)
+*Vendetta - Parts Assembly* — 1:19:37
+
 ---
 
 ### 🎥 **Full Playlist:** [Vendetta Toolhead Assembly on YouTube](https://www.youtube.com/playlist?list=PLWgEg1ho19xm_LMkO39CTWQdfH5PHcdP_)
