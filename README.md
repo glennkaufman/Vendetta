@@ -137,9 +137,8 @@ All firmware configuration files are organized under the [`firmware/config_files
 - **Box Turtle Settings**  
   Configuration optimized for the Box Turtle mod—ensuring smooth integration and reliable performance on supported machines. (`AFC*.cfg` files in `firmware/config_files/`)
 
-- **Octopus Pro**  
-  Dedicated configuration files for the BigTreeTech Octopus Pro (H723) board. These files are pre-tuned for compatibility and performance. (`firmware/config_files/octopus_pro_and_vendetta_toolhead/`)  
-  *Note: the [Hardware BOM](assembly/BOM.md) lists the Octopus V1.1, but the sample `printer.cfg` is written for the Octopus Pro (H723). If you use a different board, build Klipper for that MCU and double-check the `[mcu]` section and pin assignments.*
+- **Octopus Pro v1.1 (H723)**  
+  Dedicated configuration files for the BigTreeTech Octopus Pro v1.1 (H723) board. These files are pre-tuned for compatibility and performance. (`firmware/config_files/octopus_pro_and_vendetta_toolhead/`)
 
 - **Vendetta Tool Head**  
   Custom settings specifically for the Vendetta tool head. Includes pin mappings, thermal tuning, and motion tweaks to get the most out of your hardware.
