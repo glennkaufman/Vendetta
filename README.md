@@ -29,6 +29,8 @@ Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPA
 * [`cutter_arm.stl`](models/STLs/cutter_arm/cutter_arm.stl)
 * [`cutter_arm_button.stl`](models/STLs/cutter_arm/cutter_arm_button.stl)
 * [`cutter_arm_button_v2.stl`](models/STLs/cutter_arm/cutter_arm_button_v2.stl)
+* [`cutter_arm_mount_cutter_pin.stl`](models/STLs/cutter_arm/cutter_arm_mount_cutter_pin.stl)
+* [`cutter_arm_mount_cutter_pin_long.stl`](models/STLs/cutter_arm/cutter_arm_mount_cutter_pin_long.stl)
 
 ### Shroud
 
@@ -51,6 +53,10 @@ Fully fuctional toolhead cutting, filament sensors, lighting, Canbus or USB, CPA
 ### Fan Duct Covers
 
 * [`Fan_Duct_Covers.stl`](models/STLs/fan_duct_covers/Fan_Duct_Covers.stl)
+
+### Misc Add-ons
+
+* [`rear_pillar_brush_indexer.stl`](models/STLs/misc_addons/rear_pillar_brush_indexer.stl)
 
 ---
 
@@ -126,16 +132,19 @@ Extruder tension arm for filament path.
 
 ## Firmware Configuration
 
-All firmware configuration files are organized under the `firmware/config files/` directory, sorted by hardware and use case. These settings are tailored specifically for the Vendetta tool head and its supporting components.
+All firmware configuration files are organized under the [`firmware/config_files/`](firmware/config_files) directory, sorted by hardware and use case. These settings are tailored specifically for the Vendetta tool head and its supporting components.
 
 - **Box Turtle Settings**  
-  Configuration optimized for the Box Turtle mod—ensuring smooth integration and reliable performance on supported machines.
+  Configuration optimized for the Box Turtle mod—ensuring smooth integration and reliable performance on supported machines. (`AFC*.cfg` files in `firmware/config_files/`)
 
 - **Octopus Pro**  
-  Dedicated configuration files for the BigTreeTech Octopus Pro board. These files are pre-tuned for compatibility and performance.
+  Dedicated configuration files for the BigTreeTech Octopus Pro (H723) board. These files are pre-tuned for compatibility and performance. (`firmware/config_files/octopus_pro_and_vendetta_toolhead/`)  
+  *Note: the [Hardware BOM](assembly/BOM.md) lists the Octopus V1.1, but the sample `printer.cfg` is written for the Octopus Pro (H723). If you use a different board, build Klipper for that MCU and double-check the `[mcu]` section and pin assignments.*
 
 - **Vendetta Tool Head**  
   Custom settings specifically for the Vendetta tool head. Includes pin mappings, thermal tuning, and motion tweaks to get the most out of your hardware.
+
+> **Note:** The sample configs are for reference only. They were tested with Klipper v0.13.x (my printer runs v0.13.0-786 as of Oct 2026). Pressure advance, input shaper, and the AFC bowden length (`afc_bowden_length`) and `tool_stn` / `tool_stn_unload` values are specific to my printer and must be tuned for yours.
 
 ---
 
